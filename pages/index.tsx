@@ -23,11 +23,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-      <div className="pushin" ref={pushInContainer}>
+        <div className="pushin" ref={pushInContainer}>
           <div className="pushin-scene">
             <div className="pushin-layer">This is the first layer you'll see.</div>
             <div className="pushin-layer">
-              This is a second layer, which will be positioned behind the first one.
+              This is a second layer, which will be positioned behind the first one <a href="#">but links should work properly!</a>.
             </div>
           </div>
         </div>
